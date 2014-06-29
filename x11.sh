@@ -36,7 +36,8 @@ patch /etc/bamt/aznboy84-x11mod.conf <<.
 22c22
 < "kernel" : "ckolivas,ckolivas,ckolivas",
 ---
-> "kernel" : "x11mod",
+> "kernel" : "bitblock",
+
 37,39c37,39
 < "api-listen" : false,
 < "api-mcast-port" : "4028",
