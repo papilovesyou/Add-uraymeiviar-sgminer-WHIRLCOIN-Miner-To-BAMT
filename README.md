@@ -23,4 +23,5 @@ Then review your bamt.conf and you aznboy84-x15mod.conf
 MODIFIED FOR x15 INSTALLER:
 
 BTC: 13STLYc5sGsJRKAyiHczceizbStNnB6z4E
+
 DRK: Xyt4Dw5oqzcwUvCJWfF4DxS1JZTSHHXUEv
