@@ -18,7 +18,7 @@ clear
 cp example.conf /etc/bamt/aznboy84-x11mod.conf
 cd /etc/bamt/
 patch /etc/bamt/bamt.conf <<.
-116a118
+116a117
 >   cgminer_opts: --api-listen --config /etc/bamt/aznboy84-x11mod.conf
 124a127
 >   # anzboy84 X15 Bitblock "BBL"
