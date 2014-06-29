@@ -20,7 +20,7 @@ cd /etc/bamt/
 patch /etc/bamt/bamt.conf <<.
 115a118
 >   cgminer_opts: --api-listen --config /etc/bamt/aznboy84-x11mod.conf
-124a126
+124a127
 >   # anzboy84 X15 Bitblock "BBL"
 130a134
 >   miner-aznboy84-x11mod: 1
