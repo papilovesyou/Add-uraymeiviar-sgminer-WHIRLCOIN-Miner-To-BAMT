@@ -5,6 +5,7 @@ This is script will install an optimised x15 algorithm miner, developed by aznbo
 
 #Minable Coins
 -Firecoin
+
 -Maiacoin
 
 #Instructions
