@@ -10,7 +10,7 @@ This is script will install an optimised x15 algorithm miner, developed by aznbo
 #Instructions
 
 ```bash
-git clone https://github.com/g00se01101/Add-aznboy84-sgminer-X15mod-Miner-To-BAMT.git
+git clone https://github.com/g00se01101/Add-aznboy84-sgminer-X15Mod-Miner-To-BAMT.git
 cd Add-aznboy84-sgminer-X15Mod-Miner-To-BAMT/
 ./x15.sh
 ```
