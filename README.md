@@ -4,9 +4,8 @@ Add-uraymeiviar-sgminer-WHIRLCOIN-Miner-To-BAMT
 This is script will install an optimised whirlcoin algorithm miner, developed by uraymeiviar, within BAMT 1.6.
 
 #Minable Coins
--Firecoin
-
--Maiacoin
+-whirlcoin
+-bitblock
 
 #Instructions
 
