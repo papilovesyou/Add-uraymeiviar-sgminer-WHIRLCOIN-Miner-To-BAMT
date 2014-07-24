@@ -1,7 +1,9 @@
 #!/bin/sh
 mine stop
 sleep 5
-git clone https://github.com/uraymeiviar/sgminer sgminer-whirlcoin
+cp whirlcoin.patch /tmp/
+cd /opt/miners/
+git clone https://github.com/uraymeiviar/sgminer.git sgminer-whirlcoin
 cd /opt/miners/sgminer-whirlcoin
 cp /opt/miners/sgminer-4.1.0-sph/ADL_SDK/* /opt/miners/sgminer-whirlcoin/ADL_SDK/
 make clean
@@ -9,7 +11,7 @@ sleep 5
 chmod +x autogen.sh
 ./autogen.sh
 sleep 2
-autoreconf -i CFLAGS="-O2 -Wall -march=native" ./configure <options> 
+CFLAGS="-O2 -Wall -march=native -I /opt/AMDAPP/include/" LDFLAGS="-L/opt/AMDAPP/lib/x86" ./configure --enable-opencl
 make
 sleep 5
 make install
