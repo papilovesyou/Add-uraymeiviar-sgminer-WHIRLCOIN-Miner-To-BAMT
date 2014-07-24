@@ -24,7 +24,7 @@ patch /etc/bamt/bamt.conf <<.
 >   cgminer_opts: --api-listen --config /etc/bamt/uraymeiviar-whirlcoin.conf
 124a127
 >   # uraymeiviar WHIRLCOIN Whirlcoin "WHRL"
-120a134
+120a138
 >   miner-uraymeiviar-whirlcoin: 1
 .
 patch /opt/bamt/common.pl <<.
