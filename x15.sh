@@ -21,7 +21,7 @@ patch /etc/bamt/bamt.conf <<.
 116a117
 >   cgminer_opts: --api-listen --config /etc/bamt/uraymeiviar-whirlcoin.conf
 124a127
->   # anzboy84 X15 Bitblock "BBL"
+>   # uraymeiviar WHIRLCOIN Whirlcoin "WHRL"
 129a133
 >   miner-uraymeiviar-whirlcoin: 1
 .
