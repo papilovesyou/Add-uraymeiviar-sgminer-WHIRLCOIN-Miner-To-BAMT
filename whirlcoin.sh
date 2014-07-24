@@ -20,11 +20,11 @@ clear
 cp example.conf /etc/bamt/uraymeiviar-whirlcoin.conf
 cd /etc/bamt/
 patch /etc/bamt/bamt.conf <<.
-116a117
+115a117
 >   cgminer_opts: --api-listen --config /etc/bamt/uraymeiviar-whirlcoin.conf
 124a127
 >   # uraymeiviar WHIRLCOIN Whirlcoin "WHRL"
-129a133
+120a134
 >   miner-uraymeiviar-whirlcoin: 1
 .
 patch /opt/bamt/common.pl <<.
