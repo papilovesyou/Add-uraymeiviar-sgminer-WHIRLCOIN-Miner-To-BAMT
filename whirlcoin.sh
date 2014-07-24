@@ -7,6 +7,9 @@ git submodule update --init --recursive
 git clone https://github.com/uraymeiviar/sgminer sgminer-whirlcoin
 cd /opt/miners/sgminer-whirlcoin
 git checkout whirlcoin
+git submodule init
+git submodule update
+autoreconf -i
 cp /opt/miners/sgminer-4.1.0-sph/ADL_SDK/* /opt/miners/sgminer-whirlcoin/ADL_SDK/
 make clean
 sleep 5
