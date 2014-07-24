@@ -9,7 +9,6 @@ cd /opt/miners/sgminer-whirlcoin
 git checkout whirlcoin
 cp /opt/miners/sgminer-4.1.0-sph/ADL_SDK/* /opt/miners/sgminer-whirlcoin/ADL_SDK/
 make clean
-git submodule update --init --recursive
 sleep 5
 git submodule update --init --recursive
 chmod +x autogen.sh
