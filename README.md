@@ -20,7 +20,7 @@ Then review your bamt.conf and you uraymeiviar-whirlcoin.conf
 
 ##Donate
 
-MODIFIED FOR x15 INSTALLER:
+MODIFIED FOR WHIRLCOIN INSTALLER:
 
 BTC: 13STLYc5sGsJRKAyiHczceizbStNnB6z4E
 
