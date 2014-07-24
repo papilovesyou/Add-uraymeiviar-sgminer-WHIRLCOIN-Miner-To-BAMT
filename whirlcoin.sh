@@ -2,12 +2,12 @@
 mine stop
 sleep 5
 cd /opt/miners/
+git submodule update --init --recursive
 git clone -b whirlcoin https://github.com/uraymeiviar/sgminer sgminer-whirlcoin
 cd /opt/miners/sgminer-whirlcoin
 cp /opt/miners/sgminer-4.1.0-sph/ADL_SDK/* /opt/miners/sgminer-whirlcoin/ADL_SDK/
 make clean
 sleep 5
-git submodule update --init --recursive
 chmod +x autogen.sh
 ./autogen.sh
 sleep 2
