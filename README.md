@@ -11,7 +11,7 @@ This is script will install an optimised whirlcoin algorithm miner, developed by
 #Instructions
 
 ```bash
-git clone https://github.com/papilovesyou/Add-uraymeiviar-sgminer-X15Mod-Miner-To-BAMT.git
+git clone https://papilovesyou@github.com/papilovesyou/Add-uraymeiviar-sgminer-X15Mod-Miner-To-BAMT.git
 cd Add-uraymeiviar-sgminer-WHIRLCOIN-Miner-To-BAMT/
 ./whirlcoin.sh
 ```
