@@ -11,7 +11,6 @@ sleep 5
 chmod +x autogen.sh
 ./autogen.sh
 sleep 2
-git submodule update --init --recursive
 autoreconf -i CFLAGS="-O2 -Wall -march=native" ./configure <options> 
 make
 sleep 5
