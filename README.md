@@ -13,7 +13,7 @@ This is script will install an optimised whirlcoin algorithm miner, developed by
 ```bash
 git clone https://github.com/papilovesyou/Add-uraymeiviar-sgminer-X15Mod-Miner-To-BAMT.git
 cd Add-uraymeiviar-sgminer-WHIRLCOIN-Miner-To-BAMT/
-./x15.sh
+./whirlcoin.sh
 ```
 
 Then review your bamt.conf and you uraymeiviar-whirlcoin.conf
