@@ -1,6 +1,7 @@
 #!/bin/sh
 mine stop
 sleep 5
+cp config.patch /tmp/
 cd /opt/miners/
 git clone https://github.com/uraymeiviar/sgminer sgminer-whirlcoin
 cd /opt/miners/sgminer-whirlcoin
