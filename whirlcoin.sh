@@ -4,6 +4,9 @@ sleep 5
 cp config.patch /tmp/
 cd /opt/miners/
 git clone https://github.com/uraymeiviar/sgminer sgminer-whirlcoin
+git submodule init
+git submodule update
+autoreconf -i
 cd /opt/miners/sgminer-whirlcoin
 git checkout whirlcoin
 cp /opt/miners/sgminer-4.1.0-sph/ADL_SDK/* /opt/miners/sgminer-whirlcoin/ADL_SDK/
